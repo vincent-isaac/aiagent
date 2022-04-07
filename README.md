@@ -274,4 +274,4 @@ if __name__ == "__main__":
 
 ## RESULT
 
-Thus, an AI agent was developed and PEAS description is given. 
+Thus,an AI agent was developed and PEAS description is given. 
