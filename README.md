@@ -270,9 +270,7 @@ if __name__ == "__main__":
 ```
 
 ## OUTPUT
-
-
-
+![Screenshot (5)](https://user-images.githubusercontent.com/75234588/162230394-708ab1cc-203c-4c7d-8824-d01e20a0c52b.png)
 
 ## RESULT
 
