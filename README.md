@@ -54,7 +54,6 @@ class Thing:
         """Display the agent's internal state. Subclasses should override."""
         print("I don't know how to show_state.")
 
-
 class Agent(Thing):
     """
         An Agent is a subclass of Thing
@@ -69,7 +68,6 @@ class Agent(Thing):
         """Return True if this agent can grab this thing.
         Override for appropriate subclasses of Agent and Thing."""
         return False
-
 def TableDrivenAgentProgram(table):
     """
     This agent selects an action based on the percept sequence.
@@ -90,7 +88,6 @@ loc_A, loc_B, loc_C, loc_D, loc_E, loc_F, loc_G, loc_H, loc_I = (0,0), (0,1), (0
 #G-20 H-21 I-22
 #F-10 E-11 D-12
 #A-00 B-01 C-02
-
 def TableDrivenVacuumAgent():
     """
     Tabular approach towards vacuum world
@@ -116,7 +113,6 @@ def TableDrivenVacuumAgent():
     }
     return Agent(TableDrivenAgentProgram(table))
 #right1,2,3,4 start left1,2 up1,2
-
 class Environment:
     """Abstract class representing an Environment. 'Real' Environment classes
     inherit from this. Your Environment will typically need to implement:
@@ -197,7 +193,6 @@ class Environment:
         if thing in self.agents:
             self.agents.remove(thing)
 
-
 class TrivialVacuumEnvironment(Environment):
     """This environment has two locations, A and B. Each can be Dirty
     or Clean. The agent perceives its location and the location's
@@ -261,7 +256,6 @@ class TrivialVacuumEnvironment(Environment):
     def default_location(self, thing):
         """Agents start in either location at random."""
         return random.choice([loc_A, loc_B, loc_C, loc_D, loc_E, loc_F, loc_G, loc_H, loc_I])
-
 
 if __name__ == "__main__":
     agent = TableDrivenVacuumAgent()
