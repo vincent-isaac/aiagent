@@ -1,4 +1,6 @@
-# Developing AI Agent with PEAS Description
+## EX NO:01
+## DATE:04.04.2022
+# <p align="center">Developing AI Agent with PEAS Description
 
 ## AIM
 
@@ -32,6 +34,10 @@ Implementing the AI agent
 Measure the performance parameters
 
 ## PROGRAM
+```
+Developed by: Vincent Isaac Jeyaraj J
+Register  No:  212220230060
+```
 ```python
 import random
 
